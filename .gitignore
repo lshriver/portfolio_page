@@ -1,0 +1,25 @@
+# Hugo specific
+/public/
+/resources/_gen/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if using npm)
+node_modules/
+
+# Build artifacts
+*.log
+*.tmp
+
+# Backup files
+*~
+*.bak
+*.swp
