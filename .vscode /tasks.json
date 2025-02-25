@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Startup Script",
+            "type": "shell",
+            "command": "cd /usercode/my_portfolio && hugo server --noHTTPCache --disableFastRender --disableLiveReload -D --port=3000 --bind=0.0.0.0",
+            "group": "none",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
