@@ -1,0 +1,324 @@
+/* Add your CSS styles here */
+.homepage {
+    background-color: red;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .headerLink {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Center the About Me section */
+  .about-me {
+    text-align: center;
+  }
+  
+  /* Skill cards in a horizontal row */
+  .skills-interests-container {
+    text-align: center;
+  }
+  
+  .skills-interests {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .skills-interests-scroll {
+    display: inline-flex;
+    flex-wrap: nowrap;
+  }
+  
+  .skill-interests-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 5px; /* Adjust margin as needed for spacing */
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    white-space: nowrap; /* Prevent line breaks within cards */
+    min-width: fit-content; /* Adjust to fit the content width */
+  }
+  
+  /* Experience cards in a row-based layout */
+  .experience-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .body-headline {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .body-text {
+    font-style: italic;
+  }
+  
+  /* Education cards in a row-based layout */
+  .education-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Interests cards in a horizontal row */
+  .interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Achievement cards in a horizontal row */
+  .achievements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Common styling for skill, interest, and achievement cards */
+  .interest-card, .achievement-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 0 0 calc(40% - 10px);
+  }
+  
+  /* Project List Styles */
+  /* .project-list {
+    margin-top: 20px;
+    background-color: red;
+  } */
+  
+  /* Project Card Styles */
+  .project-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* Project Image Styles */
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Project Title Styles */
+  .project-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  /* Project Description Styles */
+  .project-card p {
+    font-size: 16px;
+    margin: 10px 0;
+    font-style: italic;
+  }
+  
+  /* Create rows with three columns */
+  .project-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Adjust column width for three columns per row */
+  .project-card {
+    flex: 0 0 calc(30% - 20px);
+  }
+  
+  /* Contact Section Styles */
+  .contact {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Contact Information Styles */
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Form Styles (customize as needed) */
+  .contact-form {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-media {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #007bff; /* You can choose the color you prefer */
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Body Section */ 
+  .body {
+    /* position: relative; */
+    /* background-color: #343434; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+    min-height: 56rem;
+  }
+  
+  .body .body-container {
+    position: relative;
+    display: flex;
+    max-width: 120rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .body-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 20rem;
+  }
+  
+  .body-img {
+    width: 100%;
+    transform: scale(.95);
+    border-radius: 50%;
+  }
+  
+  .body-content {
+    padding-top: 2rem;
+    text-align: center;
+  }
+  
+  .body-headline {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: white;
+  }
+  
+  .body-text {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: lightgray;
+  }
+  
+  .body-icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 2.8rem;
+  }
+  
+  .body .icon-link {
+    padding: 0.8rem 0.8rem;
+    color: white;
+  }
+  
+  .icon-link:hover {
+    color: lightgray;
+    transform: scale(1.05);
+  }
+  /* End Body Section */ 
